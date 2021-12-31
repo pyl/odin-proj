@@ -1,0 +1,168 @@
+html {
+  padding:0px;
+}
+
+body {
+  margin:0px;
+  display:flex;
+  flex-direction: column;
+  font-family: roboto;
+  
+}
+
+.header {
+  display:flex;
+  color:white;
+  flex-direction: column;
+  gap:40px;
+  padding-left: 250px;
+  padding-right: 250px;
+  padding-bottom: 50px;
+  margin:0px;
+  background-color: #1F2937;
+}
+
+h1 {
+  margin: 0 0 10px 0;
+}
+
+p {
+  margin: 0 0 10px 0;
+}
+
+.signup {
+  background-color:#3882F6;
+  border:#3882F6;
+  border-radius:4px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-right: 15px;
+  padding-left: 15px;
+  color: white;
+  font-weight:bold;
+}
+
+
+.links {
+  display: flex;
+  align-items: center;
+}
+
+.headercontent {
+  display:flex;
+}
+
+ul {
+  display: flex;
+  gap: 20px;
+}
+
+
+.right {
+  margin-left:auto;
+}
+
+.imgdiv {
+  flex:1;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+img {
+
+  width:300px;
+  height:300px;
+}
+
+
+.images {
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  padding-bottom: 50px;
+}
+.imagesfb {
+  display: flex;
+  gap: 20px;
+}
+
+
+.imagesfb div {
+  gap: 10px;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+}
+
+.imagesfb div img {
+  border-radius: 20px;
+  border:5px solid blue;
+
+}
+
+.imagesfb div p {
+  width: 70%;
+  text-align: center;
+}
+
+.quote {
+  padding: 50px 0 0 0;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  background-color:#E5E7EB;
+}
+
+
+.quoteLocation {
+  width: 1000px;
+  display:flex;
+  flex-direction: column;
+}
+
+
+.quoteText {
+  align-self: right;
+  color:darkgrey;
+  font-size:30px;
+  font-style: italic;
+}
+
+.author {
+  font-size:20px;
+  align-self:flex-end;
+  font-style: bold;
+}
+
+.footer {
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.cta {
+  color: white;
+  border-radius: 20px;
+  padding: 20px;
+  background-color: #3882F6;
+  display:flex;
+  gap: 100px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.signup2 {
+  align-self:center;
+  background-color: #3882F6;
+  width: 100px;
+  height: 30px;
+  border: 2px solid white;
+}
+
